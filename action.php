@@ -1,6 +1,6 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $to = "affidesk1.com"; // Recipient's email address
+    $to = "affidesk1@gmail.com"; // Recipient's email address
     $name = "Query from categories";
     $email = "This is the body of the email.";
     $phone = "From: sender@example.com" . "\r\n" .

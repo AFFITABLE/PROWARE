@@ -320,27 +320,38 @@
 
         <div class="col-lg-4 col-md-6 footer-links"><br><br><br><br> <br><br> 
           <div class="footer-contact pt-3">
-            <p style="font-size:18px; color:white">Registered Office </p>
+            <p style="font-size:18px; color:white">Corporate Office </p>
             <p style="font-size:24px; color:white">Proware Solutions </p>
             <p style="font-size:20px;color:white">322, Rajeev Nagar, Mahaviran, Nagra, Jhansi
-           Uttar Pradesh- 284003</p><br> <br> <br>
-            <p class="mt-3" style="font-size:20px;color:white"><strong>Phone:</strong> <span>+91- 9811214238</span>
-            <p style="font-size:20px;color:white"><strong>Email:</strong> <span>sales@prowaresolutions.co.in</span></p>
-          </div>
+           Uttar Pradesh- 284003</p><br> 
+           <h1 style="color:white">Follow Us</h1>
+           <p style="font-size:20px;color:white">We are socially present at </p>
+           <div class="social-links d-flex">
+             <a href="" style="color:white"><i class="bi bi-twitter-x"></i></a>
+             <a href="" style="color:white"><i class="bi bi-facebook"></i></a>
+             <a href="" style="color:white"><i class="bi bi-instagram"></i></a>
+             <a href="" style="color:white"><i class="bi bi-linkedin"></i></a>
+           </div>        </div>
         
         </div>
 
        
 
         <div class="col-lg-4 col-md-12">
-          <h1 style="color:white">Follow Us</h1>
-          <p style="font-size:20px;color:white">We are socially present at </p>
-          <div class="social-links d-flex">
-            <a href="" style="color:white"><i class="bi bi-twitter-x"></i></a>
-            <a href="" style="color:white"><i class="bi bi-facebook"></i></a>
-            <a href="" style="color:white"><i class="bi bi-instagram"></i></a>
-            <a href="" style="color:white"><i class="bi bi-linkedin"></i></a>
-          </div>
+          <div id="googleMap" style="width:100%;height:400px;"></div>
+
+          <script>
+          function myMap() {
+          var mapProp= {
+            center:new google.maps.LatLng(51.508742,-0.120850),
+            zoom:5,
+          };
+          var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+          }
+          </script>
+          
+          <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+          
         </div>
 
       </div>

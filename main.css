@@ -2754,3 +2754,8 @@ b {
       font-weight: bold;
     }
  
+ h3 {
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+      text-align: justify; /* Optional, improves appearance */
+    }
